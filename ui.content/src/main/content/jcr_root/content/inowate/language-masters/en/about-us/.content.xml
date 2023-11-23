@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-10-26T06:29:06.195+05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/inowate/settings/wcm/templates/main-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About Us"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:lastModified="{Date}2023-10-21T15:36:48.459+05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid_1754858927
+                jcr:created="{Date}2023-10-21T15:46:27.189+05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-10-21T15:47:18.380+05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            <responsivegrid_1932985977
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <about
+                    jcr:created="{Date}2023-10-26T06:25:22.970+05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-10-26T06:26:48.502+05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="inowate/components/CustomComponents/About"
+                    btnText="Subscribe"
+                    cardFourDescription="Our success is best reflected in the achievements of our clients. Take a look at some of the projects we've worked on and the problems we've solved for businesses across various industries. "
+                    cardFourTitle="Client Success Stories"
+                    cardOneDescription="we're on a mission to empower businesses with innovative software solutions. Our vision is to be a trusted partner, driving digital transformation through cutting-edge technology."
+                    cardOneTitle="Our Mission and Vision"
+                    cardThreeDescription="Quality is at the core of everything we do. We follow rigorous development methodologies, conduct thorough testing, and adhere to best practices to ensure the software we deliver is robust, secure, and user-friendly. "
+                    cardThreeTitle="Our Commitment to Quality"
+                    cardTwoDescription="Our team is the backbone of our success. We're proud to have a diverse group of talented software developers, designers, and project managers who are passionate about what they do."
+                    cardTwoTitle="Our Team of Experts"
+                    description="We are team of talented designers making websites with Bootstrap"
+                    subHeading="About Us"
+                    title="Append"/>
+                <teammembers
+                    jcr:created="{Date}2023-10-26T06:27:21.065+05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-10-26T06:29:06.180+05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="inowate/components/CustomComponents/TeamMembers"
+                    description="We are team of talented designers making websites with Bootstrap"
+                    title="Team.">
+                    <teamMember jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            designation="Lead Software Developer"
+                            detail=" Rizwan brings over a decade of experience in software development, specializing in back-end systems. He has a knack for problem-solving and enjoys turning complex challenges into elegant, efficient solutions."
+                            facebook="www.facebook.com"
+                            image="/content/dam/inowate/images/46135957-portrait-of-a-handsome-office-worker-in-the-office.jpg"
+                            linkedin="www.linkedin.com"
+                            member_name="Ishfaq Ahmad"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            designation="UI/UX Designer"
+                            detail="Kamran is a creative force on our team. With a background in graphic design and a keen eye for user experience, he's dedicated to crafting visually appealing and user-friendly interfaces that leave a lasting impression."
+                            facebook="www.facebook.com"
+                            image="/content/dam/inowate/images/images.jpeg"
+                            linkedin="www.linkedin.com"
+                            member_name="Naveed Ahmad"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            designation="Quality Assurance Analyst"
+                            detail="Zohaib is our detail-oriented quality assurance expert. He has an extensive background in software testing and is committed to ensuring the reliability and performance of our products before they reach our clients."
+                            facebook="www.facebook.com"
+                            image="/content/dam/inowate/images/istockphoto-1143233339-170667a.jpg"
+                            linkedin="www.linkedin.com"
+                            member_name="Kamran Afzal"/>
+                    </teamMember>
+                </teammembers>
+            </responsivegrid_1932985977>
+        </root>
+    </jcr:content>
+</jcr:root>

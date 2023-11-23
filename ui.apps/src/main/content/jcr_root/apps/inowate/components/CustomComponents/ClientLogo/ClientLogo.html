@@ -1,0 +1,19 @@
+<!-- Clients Section - Home Page -->
+    <section id="clients" class="clients" data-sly-use.obj="com.adobe.aem.guides.inowate.core.models.ClientLogosModel">
+
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row gy-4" data-sly-list.logo="${obj.getClientLogos}">
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+             <img src="https://admin.mayonity.com/${logo.getField_cl_image}" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+
+
+
+        </div>
+
+      </div>
+
+    </section><!-- End Clients Section -->

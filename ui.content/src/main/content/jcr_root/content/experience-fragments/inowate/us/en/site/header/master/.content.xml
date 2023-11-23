@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:tags="[]"
+        cq:template="/conf/inowate/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Header"
+        sling:resourceType="inowate/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="inowate/components/container"
+            layout="simple">
+            <navigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="inowate/components/navigation"
+                collectAllPages="false"
+                navigationRoot="/content/inowate/us/en"
+                skipNavigationRoot="false"
+                structureDepth="1"/>
+            <languagenavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="inowate/components/languagenavigation"
+                navigationRoot="/content/inowate/us"
+                structureDepth="2"/>
+            <search
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="inowate/components/search"
+                searchRoot="/content/inowate/us"/>
+            <logo/>
+        </root>
+    </jcr:content>
+</jcr:root>

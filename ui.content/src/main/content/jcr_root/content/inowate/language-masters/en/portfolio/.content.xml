@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-10-26T06:21:16.597+05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/inowate/settings/wcm/templates/main-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Portfolio"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:lastModified="{Date}2023-10-16T10:32:24.318+05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2023-10-16T10:32:00.153+05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-10-16T10:32:00.153+05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid>
+            <responsivegrid_1932985977
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <portfolio
+                    jcr:created="{Date}2023-10-26T06:18:26.299+05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-10-26T06:19:45.484+05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="inowate/components/CustomComponents/Portfolio"
+                    description="We are team of talented designers making websites with latest Technology "
+                    specific="All"
+                    title="Our Portfolio "/>
+                <clientlogo
+                    jcr:created="{Date}2023-10-26T06:19:57.169+05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-10-26T06:19:57.169+05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="inowate/components/CustomComponents/ClientLogo"/>
+                <calltoaction
+                    jcr:created="{Date}2023-10-26T06:20:14.133+05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-10-26T06:21:16.590+05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="inowate/components/CustomComponents/callToAction"
+                    bgImage="/content/dam/we-retail/en/activities/climbing/kalymnos-island-male.jpg"
+                    btnlink="#"
+                    btnText="Call to Action"
+                    description="Write to us or give us a call. We will reply to you as soon as possible. But yes, it can take up to 24 hours."
+                    title="Let's talk about all things!"/>
+            </responsivegrid_1932985977>
+        </root>
+    </jcr:content>
+</jcr:root>

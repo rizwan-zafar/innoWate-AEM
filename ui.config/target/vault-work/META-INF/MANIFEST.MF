@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 20
+Implementation-Title: InoWate - UI config
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.adobe.aem.guides:inowate.ui.config:0.0.1-SNAPSHO
+ T
+Content-Package-Description: UI config package for InoWate
+Content-Package-Roots: /apps/inowate/osgiconfig
+

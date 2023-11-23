@@ -1,0 +1,41 @@
+ <!-- Faq Section - Home Page -->
+    <section id="faq" class="faq" data-sly-use.obj="com.adobe.aem.guides.inowate.core.models.FaqsModel">
+
+
+
+<div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="content px-xl-5">
+              <h3><strong>${properties.title}</strong></h3>
+              <p> ${properties.description}
+               </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="faq-container" data-sly-list.item="${obj.getFaqsSet}">
+
+
+              <div class="faq-item">
+                <h3><span class="num">${itemList.count}.</span> <span>${item.question}</span></h3>
+                <div class="faq-content">
+                  <p>${item.answer}</p>
+                </div>
+                <i class="faq-toggle"> < </i>
+              </div><!-- End Faq item-->
+
+
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+    </section><!-- End Faq Section -->

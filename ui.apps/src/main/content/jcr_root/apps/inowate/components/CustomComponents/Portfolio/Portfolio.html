@@ -1,0 +1,75 @@
+<br /><br /><br />
+<br /><section id="portfolio" class="portfolio" data-sly-use.obj="com.adobe.aem.guides.inowate.core.models.PortfolioModel">
+
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>${properties.title}</h2>
+        <p>${properties.description}</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="packery" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+          	<li class="tab-button  filter-active" data-category="all">All</li>
+		 	<li class="tab-button" data-category="Website">Website</li>
+            <li class="tab-button" data-category="Web App">Web App</li>
+            <li class="tab-button" data-category="Mobile Apps">Mobile App</li>
+			<li class="tab-button" data-category="Dashboard">Dashboard</li>
+            <li class="tab-button" data-category="UI/UX">UI/UX</li>
+
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container item-list" data-aos="fade-up" data-aos-delay="700" data-sly-list.port="${obj.getPortfolios}">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app item"  data-category="${port.getField_pp_catagory}">
+              <img src="https://admin.mayonity.com/${port.getField_pp_image}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>${port.getField_pp_clint}</h4>
+                 <a href="${port.getField_pp_project_link}" target="_blank"  title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+
+            <!-- End Portfolio Item -->
+
+
+
+
+
+
+
+
+
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Portfolio Section -->
+
+    <script>
+document.addEventListener('DOMContentLoaded', function () {
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const itemList = document.querySelectorAll('.item');
+
+    tabButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const category = this.getAttribute('data-category');
+
+            itemList.forEach(item => {
+                const itemCategory = item.getAttribute('data-category');
+                if (category === 'all' || category === itemCategory) {
+                    item.style.display = ''; // Show matching items
+                } else {
+                    item.style.display = 'none'; // Hide non-matching items
+                }
+            });
+        });
+    });
+});
+
+    </script>

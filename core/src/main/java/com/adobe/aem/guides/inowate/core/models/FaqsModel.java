@@ -1,0 +1,44 @@
+package com.adobe.aem.guides.inowate.core.models;
+
+
+import org.apache.sling.api.resource.ResourceResolverFactory;
+import org.apache.sling.models.annotations.Model;
+import org.apache.sling.models.annotations.injectorspecific.ChildResource;
+import org.apache.sling.models.annotations.injectorspecific.SlingObject;
+import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
+import org.osgi.service.component.annotations.Reference;
+import java.util.*;
+import java.util.Iterator;
+import org.apache.sling.models.annotations.DefaultInjectionStrategy;
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
+import com.day.cq.wcm.api.Page;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
+@Model(adaptables = { SlingHttpServletRequest.class,
+    Resource.class }, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
+public class FaqsModel {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(FaqsModel.class);
+  
+    @ChildResource(name = "faqsSet")
+    List<Resource> faqsSet;
+
+
+    public List<Resource> getFaqsSet() {
+
+         // Log the values of faqsSet
+         if (faqsSet != null) {
+            for (Resource resource : faqsSet) {
+                LOGGER.info("Resource Path: {}", resource.getPath());
+                // You can log other properties or information from the Resource here as needed.
+            }
+        } else {
+            LOGGER.info("faqsSet is null");
+        }
+         return faqsSet;
+    }
+    
+}

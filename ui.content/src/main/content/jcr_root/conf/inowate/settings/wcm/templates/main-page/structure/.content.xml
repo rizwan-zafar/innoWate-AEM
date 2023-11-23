@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2023-10-25T16:59:13.895+05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/inowate/settings/wcm/templates/main-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:lastModified="{Date}2023-10-17T12:07:06.442+05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2023-10-17T12:07:14.260+05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-10-22T22:13:27.585+05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <header
+                    jcr:created="{Date}2023-10-22T22:11:36.915+05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-10-22T22:11:54.127+05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="inowate/components/CustomComponents/Header"
+                    rootPath="/content/inowate/language-masters/en"/>
+            </responsivegrid>
+            <responsivegrid_1932985977
+                jcr:created="{Date}2023-10-22T21:44:48.285+05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-10-22T21:44:48.285+05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid_1932985977>
+            <responsivegrid_2064672089
+                jcr:created="{Date}2023-10-22T21:44:55.841+05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-10-22T22:13:31.284+05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <footer
+                    jcr:created="{Date}2023-10-22T22:11:46.182+05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-10-25T16:59:13.868+05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="inowate/components/CustomComponents/Footer"
+                    address="A108 Adam Street  New York, NY 535022  United States"
+                    copyright="Copyright Append All Rights Reserved"
+                    description="Dedicated to international digital greatness A beacon of innovation. A collective of intelligent and dedicated minds. The architects of your digital tomorrow."
+                    email="append@gmail.com"
+                    madeby="BoostStrap"
+                    phone="+1 5589 55488 55"
+                    title="Append">
+                    <usefulllink jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            label="Home"
+                            link="/content/inowate/language-masters/en/home"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            label="Portfolio"
+                            link="/content/inowate/language-masters/en/portfolio"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            label="Our Team"
+                            link="/content/inowate/language-masters/en/our-team"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            label="About Us"
+                            link="/content/inowate/language-masters/en/about-us"/>
+                    </usefulllink>
+                    <services jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            label="Web Development"
+                            link="/content/inowate/language-masters/en/our-services"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            label="Web Designing"
+                            link="/content/inowate/language-masters/en/our-services"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            label="App Development"
+                            link="/content/inowate/language-masters/en/our-services"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            label="Servers Management"
+                            link="/content/inowate/language-masters/en/our-services"/>
+                    </services>
+                </footer>
+            </responsivegrid_2064672089>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

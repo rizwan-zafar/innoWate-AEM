@@ -1,0 +1,4 @@
+com/adobe/aem/guides/inowate/it/tests/GetPageIT.class
+com/adobe/aem/guides/inowate/it/tests/CreatePageIT.class
+com/adobe/aem/guides/inowate/it/tests/PublishPageValidationIT.class
+com/adobe/aem/guides/inowate/it/tests/HtmlUnitClient.class

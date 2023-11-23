@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/inowate",
+        "create path (nt:unstructured) /content/dam/inowate/jcr:content",
+        "set properties on /content/dam/inowate/jcr:content\n  set cq:conf{String} to /conf/inowate\n  set jcr:title{String} to \"InoWate\"\nend"
+    ]
+}

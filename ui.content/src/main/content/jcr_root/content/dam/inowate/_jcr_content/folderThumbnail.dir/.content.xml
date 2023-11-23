@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:file">
+    <jcr:content
+        dam:folderThumbnailPaths="[/content/dam/inowate/images/desk-1284085_1280.jpg,/content/dam/inowate/images/46135957-portrait-of-a-handsome-office-worker-in-the-office.jpg,/content/dam/inowate/images/images.jpeg]"
+        jcr:primaryType="nt:unstructured"
+        bgcolor="{Long}-1"
+        height="{Long}240"
+        width="{Long}280"/>
+</jcr:root>

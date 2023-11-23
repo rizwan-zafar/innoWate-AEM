@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-10-26T06:33:32.656+05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/inowate/settings/wcm/templates/main-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Our Services"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:lastModified="{Date}2023-10-17T12:07:06.442+05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid_1932985977
+                jcr:created="{Date}2023-10-22T21:44:48.285+05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-10-23T06:23:43.419+05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <services
+                    jcr:created="{Date}2023-10-26T06:32:53.986+05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-10-26T06:33:32.631+05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="inowate/components/CustomComponents/Services"
+                    description="We help companies master change all around the world. We meet our valuable customers, accept their vision, and follow them to make a lasting impact."
+                    title="Services"/>
+            </responsivegrid_1932985977>
+            <responsivegrid_27971
+                jcr:created="{Date}2023-10-25T09:23:30.961+05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-10-25T09:27:53.715+05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            <responsivegrid_279711938
+                jcr:created="{Date}2023-10-25T09:23:30.961+05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-10-25T09:28:01.162+05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+    </jcr:content>
+</jcr:root>

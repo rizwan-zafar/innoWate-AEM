@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 20
+Implementation-Title: InoWate - UI content
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.adobe.aem.guides:inowate.ui.content:0.0.1-SNAPSH
+ OT
+Content-Package-Description: UI content package for InoWate
+Content-Package-Dependencies: com.adobe.aem.guides:inowate.ui.apps:0.0.1
+ -SNAPSHOT
+Content-Package-Dependencies-Locations: com.adobe.aem.guides:inowate.ui.
+ apps:0.0.1-SNAPSHOT=maven:com.adobe.aem.guides:inowate.ui.apps:0.0.1-SN
+ APSHOT:zip
+Content-Package-Roots: /conf/inowate,/content/dam/inowate,/content/exper
+ ience-fragments/inowate,/content/inowate
+

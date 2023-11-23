@@ -1,0 +1,9 @@
+#base=css
+
+main.css
+aos.css
+bootstrap-icons.css
+bootstrap.min.css
+bootstrap-icons.min.css
+glightbox.min.css
+swiper-bundle.min.css

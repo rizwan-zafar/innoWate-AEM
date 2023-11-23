@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4f4d0b99-f55c-447f-9ec4-c0646ce1455b">
+    <jcr:content
+        cq:name="graphic-designing"
+        cq:parentPath="/content/dam/inowate"
+        jcr:lastModified="{Date}2023-10-23T10:48:04.441+05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Graphic Designing"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-10-23T10:48:04.441+05:00">
+        <data
+            cq:model="/conf/inowate/settings/dam/cfm/models/innowate-services"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="Some businesses literally need services from outer space, what we offer at stc will provide the solutions you need and more."
+                description_x0040_LastModified="{Date}2023-10-23T10:48:04.395+05:00"
+                heading="Graphic Designing"
+                heading_x0040_LastModified="{Date}2023-10-23T10:47:59.665+05:00"
+                icon="  &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;60&quot; height=&quot;70&quot; fill=&quot;currentColor&quot; class=&quot;bi bi-0-circle&quot; viewBox=&quot;0 0 16 16&quot;> &lt;path d=&quot;M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z&quot;/>                   &lt;path d=&quot;M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z&quot;/>               &lt;/svg>"
+                icon_x0040_LastModified="{Date}2023-10-23T10:47:59.664+05:00"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="7a2d5628-397b-4697-85b0-cef318b64ff4"
+                _x0040_string_x0040_model="/conf/inowate/settings/dam/cfm/models/innowate-services"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_description="Some businesses literally need services from outer space, what we offer at stc will provide the solutions you need and more."
+                string_x0040_heading="Graphic Designing"
+                string_x0040_icon="  &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;60&quot; height=&quot;70&quot; fill=&quot;currentColor&quot; class=&quot;bi bi-0-circle&quot; viewBox=&quot;0 0 16 16&quot;> &lt;path d=&quot;M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z&quot;/>                   &lt;path d=&quot;M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z&quot;/>               &lt;/svg>"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
