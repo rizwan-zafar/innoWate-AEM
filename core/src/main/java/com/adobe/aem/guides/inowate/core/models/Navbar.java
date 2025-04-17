@@ -6,6 +6,5 @@ import java.util.List;
  
 public interface Navbar {
     public List<Page> getRootPath();
-    // public Student[] getStudents();
     
 }
