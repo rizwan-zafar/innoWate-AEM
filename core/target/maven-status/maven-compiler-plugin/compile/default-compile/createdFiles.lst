@@ -2,6 +2,7 @@ com/adobe/aem/guides/inowate/core/models/PortfolioModel.class
 com/adobe/aem/guides/inowate/core/models/HelloWorldModel.class
 com/adobe/aem/guides/inowate/core/schedulers/SimpleScheduledTask.class
 com/adobe/aem/guides/inowate/core/models/FooterModel.class
+com/adobe/aem/guides/inowate/core/servlets/ContactUsServlet.class
 com/adobe/aem/guides/inowate/core/models/ServicesModel.class
 com/adobe/aem/guides/inowate/core/listeners/SimpleResourceListener.class
 com/adobe/aem/guides/inowate/core/schedulers/SimpleScheduledTask$Config.class
@@ -15,11 +16,13 @@ com/adobe/aem/guides/inowate/core/utilities/GlobalConstants.class
 com/adobe/aem/guides/inowate/core/servlets/package-info.class
 com/adobe/aem/guides/inowate/core/models/Beans/PortfolioBeans.class
 com/adobe/aem/guides/inowate/core/listeners/package-info.class
+com/adobe/aem/guides/inowate/core/servlets/CreatePostPageServlet.class
 com/adobe/aem/guides/inowate/core/models/Beans/ClientLogosBean.class
 com/adobe/aem/guides/inowate/core/filters/package-info.class
 com/adobe/aem/guides/inowate/core/servlets/SimpleServlet.class
 com/adobe/aem/guides/inowate/core/models/Navbar.class
 com/adobe/aem/guides/inowate/core/filters/LoggingFilter.class
+com/adobe/aem/guides/inowate/core/servlets/SystemUserTestServlet.class
 com/adobe/aem/guides/inowate/core/models/ClientLogosModel.class
 com/adobe/aem/guides/inowate/core/models/FaqsModel.class
 com/adobe/aem/guides/inowate/core/models/package-info.class
