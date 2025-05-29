@@ -31,11 +31,13 @@ Import-Package: javax.annotation;version="0.0.0",com.adobe.aem.guides.
  .3,3)",org.apache.sling.api.request;version="[2.4,3)",org.apache.slin
  g.api.resource;version="[2.11,3)",org.apache.sling.api.resource.obser
  vation;version="[1.2,2)",org.apache.sling.api.servlets;version="[2.2,
- 3)",org.apache.sling.models.annotations;version="[1.5,2)",org.apache.
- sling.models.annotations.injectorspecific;version="[1.1,2)",org.slf4j
- ;version="[1.7,2)"
-Private-Package: com.adobe.aem.guides.inowate.core.models.Beans,com.ad
- obe.aem.guides.inowate.core.utilities
+ 3)",org.apache.sling.caconfig;version="[1.0,2)",org.apache.sling.caco
+ nfig.annotation;version="[1.1,2)",org.apache.sling.models.annotations
+ ;version="[1.5,2)",org.apache.sling.models.annotations.injectorspecif
+ ic;version="[1.1,2)",org.slf4j;version="[1.7,2)"
+Private-Package: com.adobe.aem.guides.inowate.core.config,com.adobe.ae
+ m.guides.inowate.core.models.Beans,com.adobe.aem.guides.inowate.core.
+ utilities
 Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
  unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
  ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s

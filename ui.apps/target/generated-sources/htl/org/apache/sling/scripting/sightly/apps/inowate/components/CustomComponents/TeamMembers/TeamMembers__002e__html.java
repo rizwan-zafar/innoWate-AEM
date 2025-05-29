@@ -163,7 +163,22 @@ out.write("</p>\n      </div><!-- End Section Title -->\n\n      <div class=\"co
     }
     var_collectionvar2_list_coerced$ = null;
 }
-out.write("\n\n      </div>\n\n    </section><!-- End Team Section -->\n</main>");
+out.write("\n\n      </div>\n<!--        CAC config start -->\n        <div class=\"container mt-4\">\n            <div class=\"card shadow-sm border-0 rounded-4\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title mb-3 text-dark text-center\">Context Aware Config Values</h5>\n                    <ul class=\"list-group list-group-flush\">\n                        <li class=\"list-group-item\"><strong>Config Name:</strong>");
+{
+    String var_27 = (" " + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_obj, "configName"), "text")));
+    out.write(renderContext.getObjectModel().toString(var_27));
+}
+out.write("</li>\n                        <li class=\"list-group-item\"><strong>App ID:</strong>");
+{
+    String var_28 = (" " + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_obj, "appID"), "text")));
+    out.write(renderContext.getObjectModel().toString(var_28));
+}
+out.write("</li>\n                        <li class=\"list-group-item\"><strong>Authority:</strong>");
+{
+    String var_29 = (" " + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_obj, "authority"), "text")));
+    out.write(renderContext.getObjectModel().toString(var_29));
+}
+out.write("</li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n<!--         CAC Config End*/-->\n\n    </section><!-- End Team Section -->\n</main>");
 
 
 // End Of Main Template Body ----------------------------------------------------------------------

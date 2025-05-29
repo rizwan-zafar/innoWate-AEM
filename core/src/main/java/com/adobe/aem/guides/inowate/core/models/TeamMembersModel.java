@@ -1,7 +1,9 @@
 package com.adobe.aem.guides.inowate.core.models;
 
 
+import com.adobe.aem.guides.inowate.core.config.CAConfig;
 import org.apache.sling.api.resource.ResourceResolverFactory;
+import org.apache.sling.caconfig.ConfigurationBuilder;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.ChildResource;
 import org.apache.sling.models.annotations.injectorspecific.SlingObject;
@@ -16,16 +18,47 @@ import com.day.cq.wcm.api.Page;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.annotation.PostConstruct;
+
 
 @Model(adaptables = { SlingHttpServletRequest.class,
     Resource.class }, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class TeamMembersModel {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(TeamMembersModel.class);
-  
+
+    @SlingObject
+    private Resource currentResource;
+
+    private String configName;
+    private String appID;
+    private String authority;
+
+
+
+    @PostConstruct
+    protected void init() {
+        if (currentResource != null) {
+            ConfigurationBuilder configBuilder = currentResource.adaptTo(ConfigurationBuilder.class);
+            if (configBuilder != null) {
+                CAConfig caConfig = configBuilder.as(CAConfig.class);
+                if (caConfig != null) {
+                    configName = caConfig.configName();
+                    appID = caConfig.appID();
+                    authority = caConfig.authority();
+                    LOGGER.info("Loaded CAC: configName={}, appID={}, authority={}", configName, appID, authority);
+                } else {
+                    LOGGER.warn("CAConfig is null");
+                }
+            } else {
+                LOGGER.warn("ConfigurationBuilder is null");
+            }
+        }
+    }
+
+
     @ChildResource(name = "teamMember")
     List<Resource> teamMember;
-
 
     public List<Resource> getTeamMember() {
 
@@ -40,6 +73,18 @@ public class TeamMembersModel {
             LOGGER.info("teamMember is null");
         }
          return teamMember;
+    }
+
+    public String getConfigName() {
+        return configName;
+    }
+
+    public String getAppID() {
+        return appID;
+    }
+
+    public String getAuthority() {
+        return authority;
     }
 
     
