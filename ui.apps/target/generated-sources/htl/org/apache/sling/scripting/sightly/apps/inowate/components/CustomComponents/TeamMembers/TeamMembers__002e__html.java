@@ -168,9 +168,9 @@ out.write("\n\n      </div>\n<!--        CAC config start -->\n        <div clas
     String var_27 = (" " + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_obj, "configName"), "text")));
     out.write(renderContext.getObjectModel().toString(var_27));
 }
-out.write("</li>\n                        <li class=\"list-group-item\"><strong>App ID:</strong>");
+out.write("</li>\n                        <li class=\"list-group-item\"><strong>Entra ID:</strong>");
 {
-    String var_28 = (" " + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_obj, "appID"), "text")));
+    String var_28 = (" " + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_obj, "entraID"), "text")));
     out.write(renderContext.getObjectModel().toString(var_28));
 }
 out.write("</li>\n                        <li class=\"list-group-item\"><strong>Authority:</strong>");

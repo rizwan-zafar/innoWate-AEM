@@ -4,7 +4,7 @@
 <comment>InoWate - UI apps</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="dependencies-locations">adobe/cq60:core.wcm.components.content:2.19.0=maven:com.adobe.cq:core.wcm.components.content:2.19.0:zip,adobe/cq60:core.wcm.components.config:2.19.0=maven:com.adobe.cq:core.wcm.components.config:2.19.0:zip</entry>
-<entry key="created">2025-05-29T12:55:26.563Z</entry>
+<entry key="created">2025-05-31T17:42:14.833Z</entry>
 <entry key="groupId">com.adobe.aem.guides</entry>
 <entry key="description">UI apps package for InoWate</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>

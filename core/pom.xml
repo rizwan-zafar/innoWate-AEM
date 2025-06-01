@@ -44,6 +44,7 @@
                         <configuration>
                             <bnd><![CDATA[
 Import-Package: javax.annotation;version=0.0.0,*
+Sling-ContextAware-Configuration-Classes: com.adobe.aem.guides.inowate.core.config.MsalCaConfig
                                 ]]></bnd>
                         </configuration>
                     </execution>

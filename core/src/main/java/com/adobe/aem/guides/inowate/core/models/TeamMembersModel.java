@@ -1,20 +1,17 @@
 package com.adobe.aem.guides.inowate.core.models;
 
 
-import com.adobe.aem.guides.inowate.core.config.CAConfig;
-import org.apache.sling.api.resource.ResourceResolverFactory;
+import com.adobe.aem.guides.inowate.core.config.MsalCaConfig;
 import org.apache.sling.caconfig.ConfigurationBuilder;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.ChildResource;
 import org.apache.sling.models.annotations.injectorspecific.SlingObject;
-import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
-import org.osgi.service.component.annotations.Reference;
+
 import java.util.*;
-import java.util.Iterator;
+
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
-import com.day.cq.wcm.api.Page;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -31,7 +28,7 @@ public class TeamMembersModel {
     private Resource currentResource;
 
     private String configName;
-    private String appID;
+    private String entraID;
     private String authority;
 
 
@@ -41,12 +38,12 @@ public class TeamMembersModel {
         if (currentResource != null) {
             ConfigurationBuilder configBuilder = currentResource.adaptTo(ConfigurationBuilder.class);
             if (configBuilder != null) {
-                CAConfig caConfig = configBuilder.as(CAConfig.class);
+                MsalCaConfig caConfig = configBuilder.as(MsalCaConfig.class);
                 if (caConfig != null) {
                     configName = caConfig.configName();
-                    appID = caConfig.appID();
+                    entraID = caConfig.entraID();
                     authority = caConfig.authority();
-                    LOGGER.info("Loaded CAC: configName={}, appID={}, authority={}", configName, appID, authority);
+                    LOGGER.info("Loaded CAC: configName={}, entraID={}, authority={}", configName, entraID, authority);
                 } else {
                     LOGGER.warn("CAConfig is null");
                 }
@@ -79,8 +76,8 @@ public class TeamMembersModel {
         return configName;
     }
 
-    public String getAppID() {
-        return appID;
+    public String getEntraID() {
+        return entraID;
     }
 
     public String getAuthority() {

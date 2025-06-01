@@ -4,7 +4,7 @@
 <comment>InoWate - Repository Structure Package</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2025-05-29T12:51:44.886Z</entry>
+<entry key="created">2025-05-31T17:42:13.256Z</entry>
 <entry key="groupId">com.adobe.aem.guides</entry>
 <entry key="name">inowate.ui.apps.structure</entry>
 <entry key="description">Empty package that defines the structure of the Adobe Experience Manager repository the Code packages in this project deploy into.

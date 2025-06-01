@@ -1,9 +1,9 @@
 com/adobe/aem/guides/inowate/core/models/PortfolioModel.class
 com/adobe/aem/guides/inowate/core/models/HelloWorldModel.class
 com/adobe/aem/guides/inowate/core/schedulers/SimpleScheduledTask.class
-com/adobe/aem/guides/inowate/core/config/CAConfig.class
 com/adobe/aem/guides/inowate/core/models/FooterModel.class
 com/adobe/aem/guides/inowate/core/servlets/ContactUsServlet.class
+com/adobe/aem/guides/inowate/core/config/MsalCaConfig.class
 com/adobe/aem/guides/inowate/core/models/ServicesModel.class
 com/adobe/aem/guides/inowate/core/listeners/SimpleResourceListener.class
 com/adobe/aem/guides/inowate/core/schedulers/SimpleScheduledTask$Config.class

@@ -3,4 +3,5 @@
     <filter root="/apps/inowate/clientlibs"/>
     <filter root="/apps/inowate/components"/>
     <filter root="/apps/inowate/i18n"/>
+    <filter root="/apps/inowate/templates"/>
 </workspaceFilter>

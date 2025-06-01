@@ -60,6 +60,8 @@ Service-Component: OSGI-INF/com.adobe.aem.guides.inowate.core.filters.
  .aem.guides.inowate.core.servlets.GetTeamMembers.xml,OSGI-INF/com.ado
  be.aem.guides.inowate.core.servlets.SimpleServlet.xml,OSGI-INF/com.ad
  obe.aem.guides.inowate.core.servlets.SystemUserTestServlet.xml
+Sling-ContextAware-Configuration-Classes: com.adobe.aem.guides.inowate
+ .core.config.MsalCaConfig
 Sling-Model-Classes: com.adobe.aem.guides.inowate.core.models.ChildPag
  esModel,com.adobe.aem.guides.inowate.core.models.ClientLogosModel,com
  .adobe.aem.guides.inowate.core.models.FaqsModel,com.adobe.aem.guides.

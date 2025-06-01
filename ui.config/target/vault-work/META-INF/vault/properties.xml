@@ -4,7 +4,7 @@
 <comment>InoWate - UI config</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2025-05-29T12:51:47.986Z</entry>
+<entry key="created">2025-05-31T17:42:16.843Z</entry>
 <entry key="groupId">com.adobe.aem.guides</entry>
 <entry key="name">inowate.ui.config</entry>
 <entry key="description">UI config package for InoWate</entry>

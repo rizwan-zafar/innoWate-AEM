@@ -794,9 +794,14 @@ Bundle-DocURL:
           </snapshots>
                           
         </repository>
+
+        <repository>
+          <id>wcm.io</id>
+          <url>https://maven.wcm.io/releases</url>
+        </repository>
                     
       </repositories>
-                  
+
       <pluginRepositories>
                         
         <pluginRepository>
@@ -1454,7 +1459,6 @@ Bundle-DocURL:
         <scope>test</scope>
                     
       </dependency>
-              
     </dependencies>
         
   </dependencyManagement>

@@ -4,6 +4,8 @@
     <jcr:content
         cq:lastModified="{Date}2023-10-15T20:53:16.120+05:00"
         cq:lastModifiedBy="admin"
+        cq:allowedTemplates="[/conf/inowate/settings/wcm/templates/(?!xf-).*,
+        /apps/inowate/templates/.*]"
         cq:template="/conf/inowate/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         jcr:title="Language Masters"

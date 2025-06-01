@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
-Build-Jdk-Spec: 11
+Build-Jdk-Spec: 23
 Implementation-Title: InoWate - UI apps
 Implementation-Version: 0.0.1-SNAPSHOT
 Content-Package-Type: application
@@ -13,7 +13,7 @@ Content-Package-Dependencies-Locations: adobe/cq60:core.wcm.components.c
  ,adobe/cq60:core.wcm.components.config:2.19.0=maven:com.adobe.cq:core.w
  cm.components.config:2.19.0:zip
 Content-Package-Roots: /apps/inowate/clientlibs,/apps/inowate/components
- ,/apps/inowate/i18n
+ ,/apps/inowate/i18n,/apps/inowate/templates
 Import-Package: com.adobe.aem.guides.inowate.core.models;version="[1.0.0
  ,2.0.0)",org.apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
 
